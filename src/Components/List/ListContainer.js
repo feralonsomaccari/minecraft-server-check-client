@@ -23,7 +23,7 @@ const ListContainer = () => {
         setPlayersSample(result.result.players.sample);
         setPlayersCount(result.result.players);
       })
-      .catch((err) => {});
+      .catch((err) => {console.log(err)});
   }, []);
 
   return (

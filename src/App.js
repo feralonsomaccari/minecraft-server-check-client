@@ -7,9 +7,6 @@ function App() {
   return (
     <div >
       <ListContainer></ListContainer>
-      <footer class="Footer">
-        
-      </footer>
     </div>
   );
 }
