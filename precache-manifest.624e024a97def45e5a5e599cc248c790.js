@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fc5c981342f0e8bf8f7bfc1ecccd51c",
+    "revision": "c8302f795a3e72783e94e9ecff7292f8",
     "url": "/minecraft-server-check/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minecraft-server-check/static/css/2.35fcc229.chunk.css"
   },
   {
-    "revision": "05348471172cf2ab8fc5",
+    "revision": "ba74a9353c6edc58f618",
     "url": "/minecraft-server-check/static/css/main.da640937.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minecraft-server-check/static/js/2.b3bd60c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05348471172cf2ab8fc5",
-    "url": "/minecraft-server-check/static/js/main.347c3bdf.chunk.js"
+    "revision": "ba74a9353c6edc58f618",
+    "url": "/minecraft-server-check/static/js/main.ff8e4e21.chunk.js"
   },
   {
     "revision": "c72a123622c44ca3d07b",
