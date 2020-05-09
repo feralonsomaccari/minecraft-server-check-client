@@ -41,20 +41,30 @@ const playerDescByUuid = (uuid) => {
     default:
       break;
   }
-  return desc
+  return desc;
 };
 
 const ListPlayers = (props) => {
   return (
-    <List
-      itemLayout="horizontal"
-      dataSource={props.players}
-      renderItem={(player) => (
-        <List.Item>
-          <List.Item.Meta avatar={<Avatar src={shuffleAvatar()} />} title={ <span className={css.List__description}>{player.name}</span> } description={playerDescByUuid(player.id)} />
-        </List.Item>
+    <>
+      {props.players.length ? (
+        <List
+          itemLayout="horizontal"
+          dataSource={props.players}
+          renderItem={(player) => (
+            <List.Item>
+              <List.Item.Meta
+                avatar={<Avatar src={shuffleAvatar()} />}
+                title={<span className={css.List__description}>{player.name}</span>}
+                description={playerDescByUuid(player.id)}
+              />
+            </List.Item>
+          )}
+        />
+      ) : (
+        <p>Nadie esta conectado</p>
       )}
-    />
+    </>
   );
 };
 

@@ -6,6 +6,7 @@ import Loading from "../Loading/Loading"
 const ListContainer = () => {
   const [serverData, setServerData] = useState({});
   const [playersSample, setPlayersSample] = useState([]);
+  const [test, setTest] = useState([]);
   const [playersCount, setPlayersCount] = useState({});
 
   useEffect(() => {
