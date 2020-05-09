@@ -41,7 +41,7 @@ const playerDescByUuid = (uuid) => {
       case "qwex": //Gabi
       desc = "Latriboi";
       break;
-    case "qwessx": //Lean
+    case "92b2620f-f9c9-392d-bb13-ef6970fc937c": //Lean
       desc = "El creador";
       break;
     case "354a3725-d5fa-3f30-afff-fa03c05e53e5": //Augusto
@@ -82,7 +82,7 @@ const playerIconByUuid = (uuid) => {
     case "qwex": //Gabi
       icon = avatar9;
       break;
-    case "qwessx": //Lean
+    case "92b2620f-f9c9-392d-bb13-ef6970fc937c": //Lean
       icon = avatar10;
       break;
     case "354a3725-d5fa-3f30-afff-fa03c05e53e5": //Augusto
