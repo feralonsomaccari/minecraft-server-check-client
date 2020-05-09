@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0162e8c30e1fc42be7da2118ab6334",
+    "revision": "45f30615b2041060b3212bafde196d8e",
     "url": "/minecraft-server-check-client/index.html"
   },
   {
