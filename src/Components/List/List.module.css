@@ -33,7 +33,14 @@
   max-width: 20rem;
   margin: 0 auto;
 }
+.List h3{
+  font-family: "Minecraft";
+  text-align: center;
+}
 
 .List__description{
   font-family: "Minecraft";
+}
+.online{
+  color:green;
 }

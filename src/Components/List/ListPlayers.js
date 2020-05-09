@@ -14,6 +14,13 @@ import avatar10 from "../../resources/avatar10.png";
 import avatar11 from "../../resources/avatar11.gif";
 import avatar12 from "../../resources/avatar12.png";
 
+
+const imagesArr = [avatar1, avatar2, avatar3];
+const shuffleAvatar = () => {
+  let random = Math.floor(Math.random() * (3 - 0) + 0);
+  return imagesArr[random];
+};
+
 const playerDescByUuid = (uuid) => {
   let desc = "";
   switch (uuid) {
@@ -38,8 +45,8 @@ const playerDescByUuid = (uuid) => {
     case "4d30e1c6-35a8-3629-a46f-08f11491ddf6": //Merzal
       desc = "Solo el conoce los secretos de Thulnak y Thultik";
       break;
-      case "qwex": //Gabi
-      desc = "Latriboi";
+      case "3f3d3d02-180b-3b26-a246-ca7f513385ef": //Gabi
+      desc = "Le gustan los niños bien sabrosos";
       break;
     case "92b2620f-f9c9-392d-bb13-ef6970fc937c": //Lean
       desc = "El creador";
@@ -79,7 +86,7 @@ const playerIconByUuid = (uuid) => {
     case "4d30e1c6-35a8-3629-a46f-08f11491ddf6": //Merzal
       icon = avatar8;
       break;
-    case "qwex": //Gabi
+    case "3f3d3d02-180b-3b26-a246-ca7f513385ef": //Gabi
       icon = avatar9;
       break;
     case "92b2620f-f9c9-392d-bb13-ef6970fc937c": //Lean
@@ -108,7 +115,7 @@ const ListPlayers = (props) => {
             <List.Item>
               <List.Item.Meta
                 avatar={<Avatar src={playerIconByUuid(player.id)} />}
-                title={<span className={css.List__description}>{player.name}</span>}
+                title={<span className={css.List__description}>{player.name} <small className={css.online}>online</small></span>}
                 description={playerDescByUuid(player.id)}
               />
             </List.Item>
