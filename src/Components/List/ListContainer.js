@@ -8,7 +8,7 @@ const ListContainer = () => {
   const [playersCount, setPlayersCount] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:8000/", {
+    fetch("https://minecraft-server-check.herokuapp.com/", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
