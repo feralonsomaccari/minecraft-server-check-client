@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/minecraft-server-check-client/static/css/main.8583d933.chunk.css",
-    "main.js": "/minecraft-server-check-client/static/js/main.be23c4fc.chunk.js",
-    "main.js.map": "/minecraft-server-check-client/static/js/main.be23c4fc.chunk.js.map",
+    "main.js": "/minecraft-server-check-client/static/js/main.0c800814.chunk.js",
+    "main.js.map": "/minecraft-server-check-client/static/js/main.0c800814.chunk.js.map",
     "runtime-main.js": "/minecraft-server-check-client/static/js/runtime-main.06a11edf.js",
     "runtime-main.js.map": "/minecraft-server-check-client/static/js/runtime-main.06a11edf.js.map",
     "static/css/2.35fcc229.chunk.css": "/minecraft-server-check-client/static/css/2.35fcc229.chunk.css",
     "static/js/2.bcb00ace.chunk.js": "/minecraft-server-check-client/static/js/2.bcb00ace.chunk.js",
     "static/js/2.bcb00ace.chunk.js.map": "/minecraft-server-check-client/static/js/2.bcb00ace.chunk.js.map",
     "index.html": "/minecraft-server-check-client/index.html",
-    "precache-manifest.e2cf6b05d7983fff46b6ee3510152240.js": "/minecraft-server-check-client/precache-manifest.e2cf6b05d7983fff46b6ee3510152240.js",
+    "precache-manifest.545fb389e496ac08d00b4ba0d6bc0792.js": "/minecraft-server-check-client/precache-manifest.545fb389e496ac08d00b4ba0d6bc0792.js",
     "service-worker.js": "/minecraft-server-check-client/service-worker.js",
     "static/css/2.35fcc229.chunk.css.map": "/minecraft-server-check-client/static/css/2.35fcc229.chunk.css.map",
     "static/css/main.8583d933.chunk.css.map": "/minecraft-server-check-client/static/css/main.8583d933.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.35fcc229.chunk.css",
     "static/js/2.bcb00ace.chunk.js",
     "static/css/main.8583d933.chunk.css",
-    "static/js/main.be23c4fc.chunk.js"
+    "static/js/main.0c800814.chunk.js"
   ]
 }
