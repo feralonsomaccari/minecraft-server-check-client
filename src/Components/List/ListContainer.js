@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ListPlayers from "./ListPlayers";
 import css from "./List.module.css"
+import Loading from "../Loading/Loading"
 
 const ListContainer = () => {
   const [serverData, setServerData] = useState({});
@@ -38,7 +39,8 @@ const ListContainer = () => {
           <ListPlayers players={playersSample}></ListPlayers>
         </div>
         </>
-      ) : null}
+      ) : <Loading></Loading>
+      }
     </>
   );
 };
