@@ -22,10 +22,9 @@ const playerDescByUuid = (uuid) => {
       break;
     case "9588ca4d-4df8-33be-9fa5-01b9e53a909e": //Miche
       desc = "El Anti diversión";
-
       break;
     case "e89f7558-7485-316c-ba62-e7f93f31ef8d": //Aspirineta
-      desc = "El Anti diversión";
+      desc = "El cazador de memes rancios";
       break;
     case "a0489fd3-420c-3fe6-80d4-644ac4698e0a": //Beny brother
       desc = "El Hermano";
@@ -39,7 +38,6 @@ const playerDescByUuid = (uuid) => {
     case "qwe": //Gabi
       desc = "Latriboi";
       break;
-
     default:
       break;
   }
