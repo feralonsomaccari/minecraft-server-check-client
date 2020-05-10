@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "039cae180f8acb29820ac854ae6ccad2",
+    "revision": "4a669c955b736b026e5246930d631c00",
     "url": "/minecraft-server-check-client/index.html"
   },
   {
-    "revision": "82eafa48bf9c45c6c2c8",
+    "revision": "03e36e6617e30dba7d36",
     "url": "/minecraft-server-check-client/static/css/2.35fcc229.chunk.css"
   },
   {
-    "revision": "22857c1a43095b322629",
-    "url": "/minecraft-server-check-client/static/css/main.e7b969ea.chunk.css"
+    "revision": "32080a36d69e59a42063",
+    "url": "/minecraft-server-check-client/static/css/main.478ca589.chunk.css"
   },
   {
-    "revision": "82eafa48bf9c45c6c2c8",
-    "url": "/minecraft-server-check-client/static/js/2.80f0a789.chunk.js"
+    "revision": "03e36e6617e30dba7d36",
+    "url": "/minecraft-server-check-client/static/js/2.7c30f1d0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/minecraft-server-check-client/static/js/2.80f0a789.chunk.js.LICENSE.txt"
+    "url": "/minecraft-server-check-client/static/js/2.7c30f1d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22857c1a43095b322629",
-    "url": "/minecraft-server-check-client/static/js/main.1ed60af5.chunk.js"
+    "revision": "32080a36d69e59a42063",
+    "url": "/minecraft-server-check-client/static/js/main.9d5718f7.chunk.js"
   },
   {
     "revision": "d0e8103185641d7cac80",

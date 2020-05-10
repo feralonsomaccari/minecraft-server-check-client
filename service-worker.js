@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/minecraft-server-check-client/precache-manifest.3a30665e5d5e475cc025bab2e0f02edb.js"
+  "/minecraft-server-check-client/precache-manifest.16f81175727638932c0042790fe7ebed.js"
 );
 
 self.addEventListener('message', (event) => {
