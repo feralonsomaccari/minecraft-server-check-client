@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ListPlayers from "./ListPlayers";
-import css from "./List.module.css"
-import Loading from "../Loading/Loading"
+import css from "./List.module.css";
+import Loading from "../Loading/Loading";
 
 const ListContainer = () => {
   const [serverData, setServerData] = useState({});
@@ -25,23 +25,25 @@ const ListContainer = () => {
         setPlayersSample(result.result.players.sample);
         setPlayersCount(result.result.players);
       })
-      .catch((err) => {console.log(err)});
+      .catch((err) => {
+        console.log(err);
+      });
   }, []);
 
   return (
     <>
       {playersSample.length ? (
         <>
-         <div className={css.header}>
-          <h1>40tena BWW Server</h1>
-        </div>
-        <div className={css.List}>
-          <h3>Players {playersCount.online} / {playersCount.max} </h3>
-          <ListPlayers players={playersSample}></ListPlayers>
-        </div>
+          <div className={css.List}>
+            <h3>
+              Players {playersCount.online} / {playersCount.max}{" "}
+            </h3>
+            <ListPlayers players={playersSample}></ListPlayers>
+          </div>
         </>
-      ) : <Loading></Loading>
-      }
+      ) : (
+        <Loading></Loading>
+      )}
     </>
   );
 };

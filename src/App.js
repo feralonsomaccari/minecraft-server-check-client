@@ -5,9 +5,12 @@ import "antd/dist/antd.css";
 
 function App() {
   return (
-    <div>
+    <>
+      <div className="header">
+          <h1>40tena BWW Server</h1>
+        </div>
       <ListContainer></ListContainer>
-    </div>
+    </>
   );
 }
 

@@ -16,7 +16,7 @@ import avatar12 from "../../resources/avatar12.png";
 
 
 const imagesArr = [avatar1, avatar2, avatar3];
-const shuffleAvatar = () => {
+const shuffleAvatar = () => { // For future versions
   let random = Math.floor(Math.random() * (3 - 0) + 0);
   return imagesArr[random];
 };
