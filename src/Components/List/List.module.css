@@ -38,8 +38,13 @@
   text-align: center;
 }
 
+.List__name{
+  font-family: "Minecraft";
+}
 .List__description{
   font-family: "Minecraft";
+  font-size: .9em;
+  color:purple;
 }
 .online{
   color:green;

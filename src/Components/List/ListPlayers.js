@@ -54,13 +54,13 @@ const playerDescByUuid = (uuid) => {
     case "354a3725-d5fa-3f30-afff-fa03c05e53e5": //Augusto
       desc = "No entiende los emoticones";
       break;
-    case "qweee": //Fer
+    case "429d8ae2-2cad-366f-9f2c-d8e0269dc1ac": //Fer
       desc = "No reconoce el Mist of Pandaria como Arabia saudita no reconoce al estado de Israel";
       break;
     default:
       break;
   }
-  return desc;
+  return (<span className={css.List__description}>{desc}</span>);
 };
 const playerIconByUuid = (uuid) => {
   let icon = "";
@@ -95,7 +95,7 @@ const playerIconByUuid = (uuid) => {
     case "354a3725-d5fa-3f30-afff-fa03c05e53e5": //Augusto
       icon = avatar12;
       break;
-    case "qweee": //Fer
+    case "429d8ae2-2cad-366f-9f2c-d8e0269dc1ac": //Fer
       icon = avatar11;
       break;
     default:
@@ -115,7 +115,7 @@ const ListPlayers = (props) => {
             <List.Item>
               <List.Item.Meta
                 avatar={<Avatar src={playerIconByUuid(player.id)} />}
-                title={<span className={css.List__description}>{player.name} <small className={css.online}>online</small></span>}
+                title={<span className={css.List__name}>{player.name} <small className={css.online}>online</small></span>}
                 description={playerDescByUuid(player.id)}
               />
             </List.Item>
