@@ -109,7 +109,7 @@ const playerIconByUuid = (uuid) => {
 
 const ListPlayers = (props) => {
   return (
-    <>
+    <div className={css.List}>
       <List
         itemLayout="horizontal"
         dataSource={props.players}
@@ -127,7 +127,7 @@ const ListPlayers = (props) => {
           </List.Item>
         )}
       />
-    </>
+    </div>
   );
 };
 

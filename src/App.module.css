@@ -3,9 +3,6 @@
   src: url("./resources/Minecrafter.Alt.ttf") format("truetype");
 }
 
-.App{
-  height: 100%;
-}
 
 .Background {
   background-image: url("./resources/bg.png");
@@ -15,11 +12,12 @@
   width: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   position: absolute;
   filter: brightness(0.7);
 }
 .Main {
+  z-index: 2;
   position: relative;
   overflow: hidden;
 }

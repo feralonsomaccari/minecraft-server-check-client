@@ -14,14 +14,19 @@
   transform: perspective(20px) rotateX(1deg);
 }
 .List {
+  overflow: auto;
+  height: 10rem;
+}
+.ListContainer{
   padding: 2rem 2rem;
   max-width: 20rem;
   margin: 0 auto;
   color: #fff;
   text-shadow: 1px 1px black;
   background-color: rgba(25, 25, 25, 0.5);
+
 }
-.List h3 {
+.ListContainer h3 {
   font-family: "Minecraft";
   /* text-align: center; */
   color: #fff;
