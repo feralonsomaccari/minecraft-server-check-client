@@ -23,7 +23,7 @@
 }
 .List h3 {
   font-family: "Minecraft";
-  text-align: center;
+  /* text-align: center; */
   color: #fff;
 }
 
@@ -50,11 +50,11 @@
 }
 
 .ServerInfo {
-  text-align: center;
+  /* text-align: center; */
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   flex-wrap: wrap;
-  padding: 0 1rem;
+  flex-direction: column;
 }
 
 @media (min-width: 40rem) {

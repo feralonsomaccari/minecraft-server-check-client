@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("../../resources/Minecraft.ttf") format("truetype");
+}
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.Form label {
+  font-family: "Minecraft";
+  color: #fff;
+  margin: 0 1rem;
+  text-shadow: 1px 1px black;
+}
+
+.Input {
+  font-family: "Minecraft";
+  margin: 0 1rem;
+  width: 15rem;
+  padding: 0.3rem;
+  
+}
+.InputPort {
+  font-family: "Minecraft";
+  padding: 0.3rem;
+  width: 5rem;
+}

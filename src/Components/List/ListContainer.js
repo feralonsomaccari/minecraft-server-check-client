@@ -24,7 +24,6 @@ const ListContainer = () => {
         return result.json();
       })
       .then((result) => {
-        console.log(result);
         if (Object.entries(result).length) {
           setFetchOk(true);
           setPlayersSample(result.result.players.sample);
