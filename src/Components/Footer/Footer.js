@@ -10,11 +10,11 @@ const Footer = () => {
           GitHub
         </a>
       </span>
-      <span>
-        {/* <a href="https://github.com/Cryptkeeper/mc-ping-updated" target="_blank" rel="noopener noreferrer">
+      {/* <span>
+        <a href="https://github.com/Cryptkeeper/mc-ping-updated" target="_blank" rel="noopener noreferrer">
           Powered By mc-ping
-        </a> */}
-      </span>
+        </a>
+      </span> */}
     </div>
   );
 };
