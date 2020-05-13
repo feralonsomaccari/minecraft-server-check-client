@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <div className={css.Main}>
+       
         <ListContainer></ListContainer>
       </div>
       <div className={css.Background}></div>

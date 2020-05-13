@@ -8,7 +8,8 @@ const ListContainer = () => {
   const [fetchOk, setFetchOk] = useState(false);
   const [playersOnline, setPlayersOnline] = useState(0);
   const [playersMax, setPlayersMax] = useState(0);
-  const [serverInfo, setServerInfo] = useState(0);
+  const [serverName, setServerName] = useState("");
+  const [serverInfo, setServerInfo] = useState({});
 
   useEffect(() => {
     fetch("https://minecraft-server-check.herokuapp.com/", {
@@ -30,6 +31,7 @@ const ListContainer = () => {
           setPlayersOnline(result.result.players.online);
           setPlayersMax(result.result.players.max);
           setServerInfo(result.result.version);
+          setServerName(result.result.description.text)
         }
       })
       .catch((err) => {
@@ -41,7 +43,7 @@ const ListContainer = () => {
     <>
       {fetchOk ? (
         <>
-         <h1 className={css.Title}>40tena BWW Server</h1>
+         <h1 className={css.Title}>{serverName}</h1>
           <div className={css.List}>
             <div className={css.ServerInfo}>
               <span>Version: {serverInfo.name}</span> 
