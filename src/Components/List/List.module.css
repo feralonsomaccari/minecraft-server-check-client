@@ -3,12 +3,23 @@
   src: url("../../resources/Minecraft.ttf") format("truetype");
 }
 
+.Title {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Minecrafter";
+  color: #bfb5b2;
+  text-shadow: 0px 1px 1px #171717, 0px 2px 1px #171717, 0px 3px 1px #171717, 0px 4px 1px #171717, 0px 5px 1px #171717, 0px 6px 1px #171717, 0px 7px 1px #171717,
+    0px 8px 1px #171717, 0px 9px 1px #171717, 0px 10px 1px #171717, 0px 11px 1px #171717, 0px 12px 1px #171717, 0px 13px 1px #171717, 0px 14px 1px #171717,
+    0px 15px 1px #171717;
+  transform: perspective(20px) rotateX(1deg);
+}
 .List {
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   max-width: 20rem;
   margin: 0 auto;
   color: #fff;
   text-shadow: 1px 1px black;
+  background-color: rgba(25, 25, 25, 0.5);
 }
 .List h3 {
   font-family: "Minecraft";
@@ -18,17 +29,34 @@
 
 .List__name {
   font-family: "Minecraft";
+  color: #fff;
+  text-shadow: 1px 1px black;
 }
 .List__description {
   font-family: "Minecraft";
   font-size: 0.9em;
-  color: purple;
+  color: cyan;
+  font-style: italic;
+  text-shadow: 1px 1px black;
 }
 .PlayerOnline {
-  color: green;
+  color: lime;
+  text-shadow: 1px 1px black;
 }
 
 .Nobody {
   text-align: center;
   font-style: italic;
+}
+
+.ServerInfo {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 40rem) {
+  .Title {
+    font-size: 5em;
+  }
 }

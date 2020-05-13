@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <div className={css.Main}>
-        <h1 className={css.Title}>40tena BWW Server</h1>
         <ListContainer></ListContainer>
       </div>
       <div className={css.Background}></div>
