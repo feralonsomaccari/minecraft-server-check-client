@@ -13,6 +13,7 @@ import avatar9 from "../../resources/avatar9.png";
 import avatar10 from "../../resources/avatar10.png";
 import avatar11 from "../../resources/avatar11.gif";
 import avatar12 from "../../resources/avatar12.png";
+import avatar13 from "../../resources/avatar13.png";
 
 const imagesArr = [avatar1, avatar2, avatar3];
 const shuffleAvatar = () => {
@@ -58,6 +59,7 @@ const playerDescByUuid = (uuid) => {
       desc = "No reconoce el Mist of Pandaria como Arabia saudita no reconoce al estado de Israel";
       break;
     default:
+      desc = "Herobrine";
       break;
   }
   return <span className={css.List__description}>{desc}</span>;
@@ -99,6 +101,7 @@ const playerIconByUuid = (uuid) => {
       icon = avatar11;
       break;
     default:
+      icon = avatar13;
       break;
   }
   return icon;
