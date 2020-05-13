@@ -7,7 +7,9 @@ const ListContainer = () => {
   const [serverData, setServerData] = useState({});
   const [playersSample, setPlayersSample] = useState([]);
   const [test, setTest] = useState([]);
-  const [playersCount, setPlayersCount] = useState({});
+  const [players, setPlayers] = useState({});
+  const [playersOnline, setPlayersOnline] = useState(0);
+  const [playersMax, setPlayersMax] = useState(0);
 
   useEffect(() => {
     fetch("https://minecraft-server-check.herokuapp.com/", {
@@ -23,7 +25,9 @@ const ListContainer = () => {
       })
       .then((result) => {
         setPlayersSample(result.result.players.sample);
-        setPlayersCount(result.result.players);
+        setPlayers(result.result.players);
+        setPlayersOnline(result.result.players.online);
+        setPlayersMax(result.result.players.max);
       })
       .catch((err) => {
         console.log(err);
@@ -32,13 +36,13 @@ const ListContainer = () => {
 
   return (
     <>
-      {playersSample.length ? (
+      {players ? (
         <>
           <div className={css.List}>
             <h3>
-              Players {playersCount.online} / {playersCount.max}{" "}
+              Players {playersOnline}/{playersMax}
             </h3>
-            <ListPlayers players={playersSample}></ListPlayers>
+            {playersOnline ? <ListPlayers players={playersSample}></ListPlayers> : <p className={css.Nobody}>Nadie esta conectado</p>}
           </div>
         </>
       ) : (

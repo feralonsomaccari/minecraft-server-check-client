@@ -2,31 +2,33 @@
   font-family: "Minecraft";
   src: url("../../resources/Minecraft.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Minecrafter";
-  src: url("../../resources/Minecrafter.Reg.ttf") format("truetype");
-}
-
-
 
 .List {
   padding: 2rem 0;
   max-width: 20rem;
   margin: 0 auto;
+  color: #fff;
+  text-shadow: 1px 1px black;
 }
-.List h3{
+.List h3 {
   font-family: "Minecraft";
   text-align: center;
+  color: #fff;
 }
 
-.List__name{
+.List__name {
   font-family: "Minecraft";
 }
-.List__description{
+.List__description {
   font-family: "Minecraft";
-  font-size: .9em;
-  color:purple;
+  font-size: 0.9em;
+  color: purple;
 }
-.online{
-  color:green;
+.PlayerOnline {
+  color: green;
+}
+
+.Nobody {
+  text-align: center;
+  font-style: italic;
 }
