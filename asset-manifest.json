@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/minecraft-server-check-client/static/css/main.8cac7f7c.chunk.css",
+    "main.css": "/minecraft-server-check-client/static/css/main.ec2099c6.chunk.css",
     "main.js": "/minecraft-server-check-client/static/js/main.f582c55f.chunk.js",
     "main.js.map": "/minecraft-server-check-client/static/js/main.f582c55f.chunk.js.map",
     "runtime-main.js": "/minecraft-server-check-client/static/js/runtime-main.06a11edf.js",
@@ -9,10 +9,10 @@
     "static/js/2.f1add65d.chunk.js": "/minecraft-server-check-client/static/js/2.f1add65d.chunk.js",
     "static/js/2.f1add65d.chunk.js.map": "/minecraft-server-check-client/static/js/2.f1add65d.chunk.js.map",
     "index.html": "/minecraft-server-check-client/index.html",
-    "precache-manifest.5c090fab99896e9cc7783a9c3edd281d.js": "/minecraft-server-check-client/precache-manifest.5c090fab99896e9cc7783a9c3edd281d.js",
+    "precache-manifest.399d1f9d5ff7e8a22bd95a23e8d1feb4.js": "/minecraft-server-check-client/precache-manifest.399d1f9d5ff7e8a22bd95a23e8d1feb4.js",
     "service-worker.js": "/minecraft-server-check-client/service-worker.js",
     "static/css/2.35fcc229.chunk.css.map": "/minecraft-server-check-client/static/css/2.35fcc229.chunk.css.map",
-    "static/css/main.8cac7f7c.chunk.css.map": "/minecraft-server-check-client/static/css/main.8cac7f7c.chunk.css.map",
+    "static/css/main.ec2099c6.chunk.css.map": "/minecraft-server-check-client/static/css/main.ec2099c6.chunk.css.map",
     "static/js/2.f1add65d.chunk.js.LICENSE.txt": "/minecraft-server-check-client/static/js/2.f1add65d.chunk.js.LICENSE.txt",
     "static/media/List.module.css": "/minecraft-server-check-client/static/media/Minecraft.d7b98c45.ttf",
     "static/media/App.module.css": "/minecraft-server-check-client/static/media/bg.430874f1.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.06a11edf.js",
     "static/css/2.35fcc229.chunk.css",
     "static/js/2.f1add65d.chunk.js",
-    "static/css/main.8cac7f7c.chunk.css",
+    "static/css/main.ec2099c6.chunk.css",
     "static/js/main.f582c55f.chunk.js"
   ]
 }
