@@ -53,6 +53,8 @@
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 1rem;
 }
 
 @media (min-width: 40rem) {
