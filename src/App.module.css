@@ -27,6 +27,7 @@
 .Main {
   z-index: 2;
   position: relative;
+  overflow: hidden;
 }
 
 @media (min-width: 40rem) {
