@@ -10,7 +10,7 @@ I use mc-ping library in the Backend: https://github.com/Cryptkeeper/mc-ping-upd
 
 ------
 ### Why?
-I did it to start learning NodeJs, express and practice ReactJs and to make something fun for my friends. The server its very simple but it serves his purpose and I found that heroku its a great tool for hosting backend projects.
+I did it to start learning NodeJs, express and practice ReactJs and to make something fun for my friends. The server is very simple but it serves his purpose and I found that heroku is a great tool for hosting backend projects.
 
 The Back-end and the Front-end are separated in different repositories. 
 
