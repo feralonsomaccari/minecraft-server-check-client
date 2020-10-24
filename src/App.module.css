@@ -3,7 +3,6 @@
   src: url("./resources/Minecrafter.Alt.ttf") format("truetype");
 }
 
-
 .Background {
   background-image: url("./resources/bg.png");
   background-repeat: no-repeat;
@@ -21,4 +20,3 @@
   position: relative;
   overflow: hidden;
 }
-

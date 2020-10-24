@@ -42,12 +42,12 @@ const ListContainer = () => {
     <>
       {fetchOk ? (
         <>
-         <h1 className={css.Title}>{serverName}</h1>
+         {/* <h1 className={css.Title}>{serverName}</h1> */}
+         <h1 className={css.Title}>Minecraft Server</h1>
           <div className={css.ListContainer}>
             <div className={css.ServerInfo}>
               <span>Version: {serverInfo.name}</span> 
               <span>protocol: {serverInfo.protocol}</span>
-              
             </div>
             <hr/>
             <h3>

@@ -5,7 +5,6 @@ const Loading = () => {
     return (
         <div className={css.loadingContainer}>
             <div className={css.loading}><div></div><div></div><div></div></div>
-
         </div>
     )
 }
