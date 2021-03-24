@@ -1,10 +1,10 @@
 @font-face {
   font-family: "minecrafter";
-  src: url("./resources/Minecrafter.ttf") format("truetype");
+  src: url("./resources/minecrafter.ttf") format("truetype");
 }
 @font-face {
   font-family: "minecraft";
-  src: url("./resources/minecraft.ttf") format("truetype");
+  src: url("./resources/Minecraft.ttf") format("truetype");
 }
 
 body,
