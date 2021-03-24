@@ -31,6 +31,21 @@
   color: #fff;
 }
 
+.PlayersWrapper{
+  display: flex;
+  padding: .5rem 0;
+  align-items: center;
+  border-bottom: 1px solid rgba(25, 25, 25, 0.5);
+}
+.PlayerAvatar{
+  border-radius: 50% 50%;
+  width: 32px;
+  height: 32px;
+}
+.PlayerInfoWrapper{
+  padding: 0 1rem;
+}
+
 .List__name {
   font-family: "Minecraft";
   color: #fff;
@@ -46,6 +61,7 @@
 .PlayerOnline {
   color: lime;
   text-shadow: 1px 1px black;
+  padding-left: .5rem;
 }
 
 .Nobody {
