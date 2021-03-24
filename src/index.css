@@ -1,6 +1,19 @@
-body,html{
-    height: 100%;
+@font-face {
+  font-family: "minecrafter";
+  src: url("./resources/minecrafter.ttf") format("truetype");
 }
-#root{
-    height: 100%;
+@font-face {
+  font-family: "minecraft";
+  src: url("./resources/minecraft.ttf") format("truetype");
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "roboto";
+  box-sizing: border-box;
+  margin: 0;
+}
+#root {
+  height: 100%;
 }

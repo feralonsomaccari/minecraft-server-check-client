@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Minecrafter";
-  src: url("./resources/Minecrafter.Alt.ttf") format("truetype");
-}
-
 .Background {
   background-image: url("./resources/bg.png");
   background-repeat: no-repeat;
