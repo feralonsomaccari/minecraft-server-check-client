@@ -2,7 +2,7 @@
 
 This is a web to check the status and current online players of my friend's Minecraft server.
 Back-end hosted in Heroku and Front-end hosted here in github pages.
-I use react CSS modules for the styling and ant design just to test it.
+I use react CSS modules for the styling.
 
 Live site: https://feralonsomaccari.github.io/minecraft-server-check-client/
 
