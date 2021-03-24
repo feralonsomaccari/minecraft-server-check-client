@@ -3,7 +3,6 @@ import css from "./App.module.css";
 import Form from "./Components/Form/Form";
 import ListContainer from "./Components/List/ListContainer";
 import Footer from "./Components/Footer/Footer";
-import "antd/dist/antd.css";
 
 function App() {
   return (
