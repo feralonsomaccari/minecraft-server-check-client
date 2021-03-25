@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7750296dcc39edf24260dccf6f826dc0",
+    "revision": "60188ffe216d18805af2443b2db113d3",
     "url": "/minecraft-server-check-client/index.html"
   },
   {
-    "revision": "781d52e498e3af9bf3c4",
-    "url": "/minecraft-server-check-client/static/css/2.35fcc229.chunk.css"
+    "revision": "2afdf9e8f8e0c50e8b89",
+    "url": "/minecraft-server-check-client/static/css/main.a267ccfe.chunk.css"
   },
   {
-    "revision": "ee10f881892dff8bc0cc",
-    "url": "/minecraft-server-check-client/static/css/main.e559857b.chunk.css"
+    "revision": "7fd236454765295a58b7",
+    "url": "/minecraft-server-check-client/static/js/2.9588c2d1.chunk.js"
   },
   {
-    "revision": "781d52e498e3af9bf3c4",
-    "url": "/minecraft-server-check-client/static/js/2.0caae7bc.chunk.js"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/minecraft-server-check-client/static/js/2.9588c2d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/minecraft-server-check-client/static/js/2.0caae7bc.chunk.js.LICENSE.txt"
-  },
-  {
-    "revision": "ee10f881892dff8bc0cc",
-    "url": "/minecraft-server-check-client/static/js/main.4ea47fbc.chunk.js"
+    "revision": "2afdf9e8f8e0c50e8b89",
+    "url": "/minecraft-server-check-client/static/js/main.8b70c12a.chunk.js"
   },
   {
     "revision": "d0e8103185641d7cac80",
@@ -30,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7b98c450349bef0631c7229b804a5c7",
     "url": "/minecraft-server-check-client/static/media/Minecraft.d7b98c45.ttf"
-  },
-  {
-    "revision": "dc7947b63602675ec87b023cfc35d028",
-    "url": "/minecraft-server-check-client/static/media/Minecrafter.Alt.dc7947b6.ttf"
   },
   {
     "revision": "1bbe0411fbaefb851aa19c7b3988ec4b",
@@ -46,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "330c116612683bef541dc6e8e9817bcd",
     "url": "/minecraft-server-check-client/static/media/bg.330c1166.png"
+  },
+  {
+    "revision": "dc7947b63602675ec87b023cfc35d028",
+    "url": "/minecraft-server-check-client/static/media/minecrafter.dc7947b6.ttf"
   }
 ]);
