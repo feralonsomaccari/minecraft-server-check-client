@@ -12,7 +12,7 @@ const ListContainer = () => {
   const [serverInfo, setServerInfo] = useState({});
 
   useEffect(() => {
-    fetch("https://minecraft-server-check.herokuapp.com/", {
+    fetch(process.env.SERVER_URL, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
