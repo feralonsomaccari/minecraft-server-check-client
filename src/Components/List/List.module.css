@@ -22,18 +22,18 @@
   color: #fff;
 }
 
-.PlayersWrapper{
+.PlayersWrapper {
   display: flex;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   align-items: center;
   border-bottom: 1px solid rgba(25, 25, 25, 0.5);
 }
-.PlayerAvatar{
+.PlayerAvatar {
   border-radius: 50% 50%;
   width: 32px;
   height: 32px;
 }
-.PlayerInfoWrapper{
+.PlayerInfoWrapper {
   padding: 0 1rem;
 }
 
@@ -52,7 +52,7 @@
 .PlayerOnline {
   color: lime;
   text-shadow: 1px 1px black;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 
 .Nobody {
@@ -62,8 +62,23 @@
 
 .ServerInfo {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Refresh {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.Refresh:hover {
+  color:rgb(230, 230, 230)
+}
+.Refresh:active{
+  color:rgb(184, 184, 184)
+}
+.RefreshIcon{
+  margin-left: .2rem;
+  filter: brightness(0) invert(1);
 }
 
 @media (min-width: 40rem) {

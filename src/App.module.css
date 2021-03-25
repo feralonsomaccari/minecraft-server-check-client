@@ -2,6 +2,7 @@
   height: 100%;
   min-height: 100vh;
   padding: 1rem;
+  padding-bottom: 5rem;
   z-index: 2;
   overflow: hidden;
   background-image: url("./resources/bg.jpg");

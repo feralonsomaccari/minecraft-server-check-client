@@ -2,40 +2,33 @@ import React, { useState, useEffect } from "react";
 import ListPlayers from "./ListPlayers";
 import css from "./List.module.css";
 import Loading from "../Loading/Loading";
+import refreshIcon from "../../resources/refresh-icon.png"
+import { fetchServerData } from '../../Services/ServerServices'
 
 const ListContainer = () => {
-  const [playersSample, setPlayersSample] = useState([]);
   const [fetchOk, setFetchOk] = useState(false);
+  const [refreshOk, setRefreshOk] = useState(false)
+  const [playersSample, setPlayersSample] = useState([]);
   const [playersOnline, setPlayersOnline] = useState(0);
   const [playersMax, setPlayersMax] = useState(0);
   const [serverName, setServerName] = useState("");
   const [serverInfo, setServerInfo] = useState({});
 
+  const requestServerData = async () => {
+    setRefreshOk(false);
+    const fetchedServedData = await fetchServerData()
+    setPlayersSample(fetchedServedData.result.players.sample);
+    setPlayersOnline(fetchedServedData.result.players.online);
+    setPlayersMax(fetchedServedData.result.players.max);
+    setServerInfo(fetchedServedData.result.version);
+    setServerName(fetchedServedData.result.description.text)
+    setFetchOk(true);
+    setRefreshOk(true)
+    console.log("pepe");
+  }
+
   useEffect(() => {
-    fetch(process.env.REACT_APP_SERVER_URL, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      mode: "cors",
-      cache: "default",
-    })
-      .then((result) => {
-        return result.json();
-      })
-      .then((result) => {
-        if (Object.entries(result).length) {
-          setFetchOk(true);
-          setPlayersSample(result.result.players.sample);
-          setPlayersOnline(result.result.players.online);
-          setPlayersMax(result.result.players.max);
-          setServerInfo(result.result.version);
-          setServerName(result.result.description.text)
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    requestServerData()
   }, []);
 
   return (
@@ -47,12 +40,17 @@ const ListContainer = () => {
             <div className={css.ServerInfo}>
               <span>Version: {serverInfo.name}</span>
               <span>protocol: {serverInfo.protocol}</span>
+              <span className={css.Refresh} onClick={requestServerData}>Refresh <img className={css.RefreshIcon} src={refreshIcon} height="15" width="15" alt="refresh" /> </span>
             </div>
             <hr />
             <h3>
               Players: {playersOnline}/{playersMax}
             </h3>
-            {playersOnline ? <ListPlayers players={playersSample}></ListPlayers> : <p className={css.Nobody}>Nadie esta conectado</p>}
+            {refreshOk
+              ? playersOnline ? <ListPlayers players={playersSample}></ListPlayers> : <p className={css.Nobody}>Nadie esta conectado</p>
+              : <Loading></Loading>
+            }
+
           </div>
         </>
       ) : (
