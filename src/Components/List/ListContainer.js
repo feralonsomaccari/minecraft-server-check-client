@@ -12,7 +12,7 @@ const ListContainer = () => {
   const [serverInfo, setServerInfo] = useState({});
 
   useEffect(() => {
-    fetch(process.env.SERVER_URL, {
+    fetch(process.env.REACT_APP_SERVER_URL, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
