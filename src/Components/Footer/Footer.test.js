@@ -11,9 +11,9 @@ describe("<Footer/>", () => {
         expect(wrapper).toMatchSnapshot();
     })
 
-    it("The author name should have my name :)s", () => {
-        const authorText = wrapper.find("span").text();
-        expect(authorText).toBe("Made by Fer Alonso Maccari 🦉GitHub")
+    it("The author name should have my name :)", () => {
+        const authorText = wrapper.find("#footer-author").text();
+        expect(authorText).toBe("Made by Fer Alonso Maccari🦉GitHub")
     })
     it("github link should have correct href attribute", () => {
         const link = wrapper.find("a").prop("href");

@@ -38,7 +38,7 @@ const shuffleAvatar = () => {
 const Player = (props) => {
     return (
         <>
-           <img className={css.PlayerAvatar} src={shuffleAvatar()}></img>
+           <img className={css.PlayerAvatar} src={shuffleAvatar()} alt={props.player.name}></img>
           <div className={css.PlayerInfoWrapper}>
             <span id="player-name">{props.player.name}</span>
             <small className={css.PlayerOnline} id="player-status">online</small>
