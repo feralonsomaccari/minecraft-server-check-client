@@ -11,7 +11,6 @@ function App() {
         <ListContainer></ListContainer>
       </div>
       <Footer></Footer>
-      <div className={css.Background}></div>
     </div>
   );
 }
