@@ -24,7 +24,6 @@ const ListContainer = () => {
     setServerName(fetchedServedData.result.description.text)
     setFetchOk(true);
     setRefreshOk(true)
-    console.log("pepe");
   }
 
   useEffect(() => {
