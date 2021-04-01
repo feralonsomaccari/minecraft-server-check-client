@@ -3,7 +3,7 @@ import ListPlayers from "./ListPlayers";
 import css from "./List.module.css";
 import Loading from "../Loading/Loading";
 import refreshIcon from "../../resources/refresh-icon.png"
-import { fetchServerData } from '../../Services/ServerServices'
+import { fetchServerData } from '../../services/ServerServices'
 
 const ListContainer = () => {
   const [fetchOk, setFetchOk] = useState(false);
