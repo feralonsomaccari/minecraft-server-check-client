@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/minecraft-server-check-client/static/css/main.bf69eacd.chunk.css",
-    "main.js": "/minecraft-server-check-client/static/js/main.f33b6c56.chunk.js",
-    "main.js.map": "/minecraft-server-check-client/static/js/main.f33b6c56.chunk.js.map",
-    "runtime-main.js": "/minecraft-server-check-client/static/js/runtime-main.06a11edf.js",
-    "runtime-main.js.map": "/minecraft-server-check-client/static/js/runtime-main.06a11edf.js.map",
-    "static/js/2.bdc0eded.chunk.js": "/minecraft-server-check-client/static/js/2.bdc0eded.chunk.js",
-    "static/js/2.bdc0eded.chunk.js.map": "/minecraft-server-check-client/static/js/2.bdc0eded.chunk.js.map",
+    "main.css": "/minecraft-server-check-client/static/css/main.ce3e4443.chunk.css",
+    "main.js": "/minecraft-server-check-client/static/js/main.055c82bd.chunk.js",
+    "main.js.map": "/minecraft-server-check-client/static/js/main.055c82bd.chunk.js.map",
+    "runtime-main.js": "/minecraft-server-check-client/static/js/runtime-main.dc0bcb9b.js",
+    "runtime-main.js.map": "/minecraft-server-check-client/static/js/runtime-main.dc0bcb9b.js.map",
+    "static/js/2.caaaaed8.chunk.js": "/minecraft-server-check-client/static/js/2.caaaaed8.chunk.js",
+    "static/js/2.caaaaed8.chunk.js.map": "/minecraft-server-check-client/static/js/2.caaaaed8.chunk.js.map",
     "index.html": "/minecraft-server-check-client/index.html",
-    "precache-manifest.8a273d4d6403439b74d3b4a0fcf2c836.js": "/minecraft-server-check-client/precache-manifest.8a273d4d6403439b74d3b4a0fcf2c836.js",
-    "service-worker.js": "/minecraft-server-check-client/service-worker.js",
-    "static/css/main.bf69eacd.chunk.css.map": "/minecraft-server-check-client/static/css/main.bf69eacd.chunk.css.map",
-    "static/js/2.bdc0eded.chunk.js.LICENSE.txt": "/minecraft-server-check-client/static/js/2.bdc0eded.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/minecraft-server-check-client/static/media/minecrafter.dc7947b6.ttf",
-    "static/media/avatar11.gif": "/minecraft-server-check-client/static/media/avatar11.1bbe0411.gif",
-    "static/media/avatar5.gif": "/minecraft-server-check-client/static/media/avatar5.196fb725.gif",
-    "static/media/App.module.css": "/minecraft-server-check-client/static/media/bg.ae784d58.jpg",
-    "static/media/refresh-icon.png": "/minecraft-server-check-client/static/media/refresh-icon.ba5c624a.png"
+    "static/css/main.ce3e4443.chunk.css.map": "/minecraft-server-check-client/static/css/main.ce3e4443.chunk.css.map",
+    "static/js/2.caaaaed8.chunk.js.LICENSE.txt": "/minecraft-server-check-client/static/js/2.caaaaed8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/minecraft-server-check-client/static/media/minecrafter.e055747a.ttf",
+    "static/media/avatar11.1bae28c9.gif": "/minecraft-server-check-client/static/media/avatar11.1bae28c9.gif",
+    "static/media/avatar5.0e3508c5.gif": "/minecraft-server-check-client/static/media/avatar5.0e3508c5.gif",
+    "static/media/App.module.css": "/minecraft-server-check-client/static/media/bg.846a2f82.jpg",
+    "static/media/refresh-icon.e99fbef0.png": "/minecraft-server-check-client/static/media/refresh-icon.e99fbef0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.06a11edf.js",
-    "static/js/2.bdc0eded.chunk.js",
-    "static/css/main.bf69eacd.chunk.css",
-    "static/js/main.f33b6c56.chunk.js"
+    "static/js/runtime-main.dc0bcb9b.js",
+    "static/js/2.caaaaed8.chunk.js",
+    "static/css/main.ce3e4443.chunk.css",
+    "static/js/main.055c82bd.chunk.js"
   ]
 }
