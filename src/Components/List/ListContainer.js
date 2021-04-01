@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import ListPlayers from "./ListPlayers";
 import css from "./List.module.css";
 import Loading from "../Loading/Loading";

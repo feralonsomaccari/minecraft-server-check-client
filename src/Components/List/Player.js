@@ -1,4 +1,3 @@
-import React from 'react'
 import css from "./List.module.css";
 import avatar1 from "../../resources/avatar1.png";
 import avatar2 from "../../resources/avatar2.png";

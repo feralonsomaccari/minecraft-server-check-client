@@ -1,4 +1,3 @@
-import React from "react";
 import css from "./Form.module.css";
 
 const Form = () => {

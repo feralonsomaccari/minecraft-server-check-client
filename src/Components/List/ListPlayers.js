@@ -1,4 +1,3 @@
-import React from "react";
 import css from "./List.module.css";
 import Player from "./Player"
 
